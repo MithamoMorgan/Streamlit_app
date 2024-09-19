@@ -10,3 +10,11 @@ You don't need to know the basics of web  development to get started or to creat
 
 It is compatible with the majority of python librarie (eg. pandas, matplotlib, seaborn, plotly, keras, pytorch)
 
+## Example
+
+The main profit of loans comes directly from the loan's interest. The loan companies grant a loan after an intensive process of verification and validation. However, they still don't have assuarance if the applicant is able to repay the loan with no difficulties. I will build a simple predictive model (Random Forest Classifier) to predict the loan status of an applicant.
+
+## Objective:
+
+Prepare a web app to make the predictive model available for production.
+
