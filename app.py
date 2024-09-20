@@ -13,7 +13,7 @@ def predict_status(input_data):
     return prediction
 
 # Streamlit app title
-st.title("Loan Default Prediction App")
+st.title("Loan Default Prediction App:bank:")
 
 # Gender selection (with corresponding numeric values)
 gender = st.selectbox('Gender', ('Not available', 'Male', 'Female', 'Joint'))
@@ -47,4 +47,16 @@ input_data = pd.DataFrame({
 # Display the prediction when the button is clicked
 if st.button('Predict Loan Status'):
     result = predict_status(input_data)
-    st.write(f'Predicted Loan Status: {"Defaulted" if result == 1 else "Not Defaulted"}')
+ 
+    # Set background color based on the prediction
+    bg_color = "red" if result == 1 else "green"
+    
+    # Display the status with the specified background color
+    st.markdown(
+        f"""
+        <div style="background-color: {bg_color}; padding: 1px; border-radius: 3px; width: 480px;">
+            <h3 style="color: white;">Predicted Loan Status: {"Defaulted" if result == 1 else "Not Defaulted"}</h3>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
