@@ -18,3 +18,13 @@ The main profit of loans comes directly from the loan's interest. The loan compa
 
 Prepare a web app to make the predictive model available for production.
 
+# Data
+The loan dataset used in this example had only 7 columns:
+* Gender
+* Loan_amount
+* Rate of interest
+* Income
+* Credit_score
+* term
+* status
+
