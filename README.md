@@ -33,3 +33,8 @@ The loan dataset used in this example had only 7 columns:
 * The data used for the prediction had few columns, which may lead to inaccurate predictions due to insufficient features for the model to learn from.
 * The file random_forest_model.pkl was not pushed to this repository due to its large size and was added to the .gitignore file
 
+## App
+!()[https://github.com/MithamoMorgan/Streamlit_app/blob/master/Imgs/before_img.jpg]
+!()[https://github.com/MithamoMorgan/Streamlit_app/blob/master/Imgs/after_img.jpg]
+
+
