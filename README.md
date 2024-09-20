@@ -34,7 +34,10 @@ The loan dataset used in this example had only 7 columns:
 * The file random_forest_model.pkl was not pushed to this repository due to its large size and was added to the .gitignore file
 
 ## App
+### Without user input
 ![](https://github.com/MithamoMorgan/Streamlit_app/blob/master/Imgs/before_img.jpg)
+
+### With User Input/predicted
 ![](https://github.com/MithamoMorgan/Streamlit_app/blob/master/Imgs/after_img.jpg)
 
 
