@@ -18,7 +18,8 @@ The main profit of loans comes directly from the loan's interest. The loan compa
 
 Prepare a web app to make the predictive model available for production.
 
-# Data
+## Data
+
 The loan dataset used in this example had only 7 columns:
 * Gender
 * Loan_amount
@@ -27,4 +28,8 @@ The loan dataset used in this example had only 7 columns:
 * Credit_score
 * term
 * status
+
+## Limitations
+* The data used for the prediction had few columns.
+* The file random_forest_model.pkl was not pushed to this repository due to its large size and was added to the .gitignore file
 
