@@ -7,8 +7,9 @@
 5. [Display an Image Video or Audio File](#Display-an-Image-Video-or-Audio-File)
 6. [Input Widgets](#Input-Widgets)
 7. [Display Progress and Status](#Display-Progress-and-Status)
-8. [Example](#Example)
-9. [How to Run the App](#How-to-Run-the-App)
+8. [Sidebar and Container](#Sidebar-and-Container)
+9. [Example](#Example)
+10. [How to Run the App](#How-to-Run-the-App)
 
 ## What is Streamlit
 
@@ -103,7 +104,9 @@ st.info("It's easy to build a Streamlit app")
 st.exception(RuntimeError("RuntimeError exception"))
 ```
 
+## Sidebar and Container
 
+This help to organize your app. The hierarchy and arrangement of pages on your app can have a large impact on your user experience. By organizing your content you allow visitors to unnderstand and navigate your site, which helps them find what the're looking for and increases the likelihoos that they'll return in the future.
 
 
 ## Example
