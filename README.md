@@ -117,6 +117,14 @@ st.sidebar.title("Sidebar Title")
 st.sidebar.markdown("This is the sidebar content")
 ```
 
+### Container
+
+`st.container()` is used to create an invisible container where you can put elements in order to create a useful arrangement and hierarchy.
+
+```python
+with st.container():
+    st.write("This is inside the container")
+```
 
 ## Example
 
