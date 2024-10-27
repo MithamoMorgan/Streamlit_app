@@ -1,3 +1,7 @@
+## Table of Contents
+
+1. [What is Streamlit?](#What-is-Streamlit?)
+
 ## What is Streamlit?
 
 Streamlit is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps. It is a python-based library specifically designed for machine learning engineers. 
