@@ -2,7 +2,8 @@
 
 1. [What is Streamlit](#What-is-Streamlit?)
 2. [Why should data scientists use streamlit](#Why-should-data-scientists-use-streamlit)
-3. [Example](#Example)
+3. [Tools](#Tools)
+4. [Example](#Example)
 
 ## What is Streamlit
 
@@ -15,6 +16,11 @@ Data scientists or machine learning engineers are not web developers and they're
 You don't need to know the basics of web  development to get started or to create your first web applocation. So if you're into data science and you want to deploy your model easily, quickly, and with only few lines of code, Streamlit is a good fit.
 
 It is compatible with the majority of python librarie (eg. pandas, matplotlib, seaborn, plotly, keras, pytorch)
+
+## Tools
+
+* **Python:** Programming language
+* **VsCode:** IDE
 
 ## Example
 
