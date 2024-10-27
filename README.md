@@ -5,7 +5,7 @@
 3. [Tools](#Tools)
 4. [Display Texts with Streamlit](#Display-Texts-with-Streamlit)
 5. [Display an Image Video or Audio File](#Display-an-Image-Video-or-Audio-File)
-6. [Input Widgets](Input-Widgets)
+6. [Input Widgets](#Input-Widgets)
 7. [Example](#Example)
 8. [How to Run the App](#How-to-Run-the-App)
 
