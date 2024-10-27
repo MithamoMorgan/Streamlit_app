@@ -6,8 +6,9 @@
 4. [Display Texts with Streamlit](#Display-Texts-with-Streamlit)
 5. [Display an Image Video or Audio File](#Display-an-Image-Video-or-Audio-File)
 6. [Input Widgets](#Input-Widgets)
-7. [Example](#Example)
-8. [How to Run the App](#How-to-Run-the-App)
+7. [Display Progress and Status](#Display-Progress-and-Status)
+8. [Example](#Example)
+9. [How to Run the App](#How-to-Run-the-App)
 
 ## What is Streamlit
 
@@ -81,6 +82,29 @@ st.text_area('Description')
 st.file_uploader('Upload a photo')
 st.color_picker('Choose your favorite color')
 ```
+
+## Display Progress and Status
+
+Progress bars
+
+```python
+st.balloons()  # Celebration balloons
+st.progress(10)  # Progress bar
+with st.spinner('Wait for it...'):
+    time.sleep(10)  # Simulating a process delay
+```
+
+Status messages
+```python
+st.success("You did it!")
+st.error("Error occurred")
+st.warning("This is a warning")
+st.info("It's easy to build a Streamlit app")
+st.exception(RuntimeError("RuntimeError exception"))
+```
+
+
+
 
 ## Example
 
