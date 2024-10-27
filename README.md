@@ -41,15 +41,10 @@ The loan dataset used in this example had only 7 columns:
 * term
 * status
 
-## Limitations
-* The data used for the prediction had few columns, which may lead to inaccurate predictions due to insufficient features for the model to learn from.
-* The file random_forest_model.pkl was not pushed to this repository due to its large size and was added to the .gitignore file
+## How to Run the App
 
-## App
-### Without user input:
-![](https://github.com/MithamoMorgan/Streamlit_app/blob/master/Imgs/before_img.jpg)
+Run this command in the VsCode terminal:
 
-### With User Input/predicted:
-![](https://github.com/MithamoMorgan/Streamlit_app/blob/master/Imgs/after_img.jpg)
+```streamlit run example.py```
 
 
