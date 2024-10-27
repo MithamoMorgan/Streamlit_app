@@ -16,6 +16,8 @@ Data scientists or machine learning engineers are not web developers and they're
 
 You don't need to know the basics of web  development to get started or to create your first web applocation. So if you're into data science and you want to deploy your model easily, quickly, and with only few lines of code, Streamlit is a good fit.
 
+Streamlit is the easiest way especially for people with no front-end-knowledge to put their code into a web application.
+
 It is compatible with the majority of python librarie (eg. pandas, matplotlib, seaborn, plotly, keras, pytorch)
 
 ## Tools
