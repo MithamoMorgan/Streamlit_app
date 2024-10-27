@@ -1,6 +1,8 @@
 ## Table of Contents
 
 1. [What is Streamlit?](#What-is-Streamlit?)
+2. [Why should data scientists use streamlit?](Why-should-data-scientists-use-streamlit?)
+3. [Example](#Example)
 
 ## What is Streamlit?
 
