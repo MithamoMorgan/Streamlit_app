@@ -70,6 +70,8 @@ st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
 st.slider('Pick a number', 0, 50)
 ```
 
+**NOte:** `st.selectbox` allows users to select a single option from a dropdown list while `st.multiselect` allows users to select multiple options from a list.
+
 ## Example
 
 The main profit of loans comes directly from the loan's interest. The loan companies grant a loan after an intensive process of verification and validation. However, they still don't have assuarance if the applicant is able to repay the loan with no difficulties. I will build a simple predictive model (Random Forest Classifier) to predict the loan status of an applicant.
