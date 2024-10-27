@@ -8,8 +8,9 @@
 6. [Input Widgets](#Input-Widgets)
 7. [Display Progress and Status](#Display-Progress-and-Status)
 8. [Sidebar and Container](#Sidebar-and-Container)
-9. [Example](#Example)
-10. [How to Run the App](#How-to-Run-the-App)
+9. [Creating Multiple Pages](#Creating-Multiple-Pages)
+10. [Example](#Example)
+11. [How to Run the App](#How-to-Run-the-App)
 
 ## What is Streamlit
 
@@ -125,6 +126,12 @@ st.sidebar.markdown("This is the sidebar content")
 with st.container():
     st.write("This is inside the container")
 ```
+
+## Creating Multiple Pages
+
+In the directory where the python file is situated, create a new folder named **pages**. Users have to name that folder pages as Streamlit will not understand any other directory name.
+To add content in both pages we simply write code on those Python files by importing streamlit and using it’s methods.
+Streamlit by default order our pages alphabetically, we can change that by making changes in the file name by adding a specific number infront of their name followed by an underscore like this –
 
 ## Example
 
