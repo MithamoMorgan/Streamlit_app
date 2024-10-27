@@ -18,7 +18,10 @@ You don't need to know the basics of web  development to get started or to creat
 
 Streamlit is the easiest way especially for people with no front-end-knowledge to put their code into a web application.
 
-It is compatible with the majority of python librarie (eg. pandas, matplotlib, seaborn, plotly, keras, pytorch)
+* No front-end (html, js, css) experience/ knowledge required.
+* You can create a really beautiful ML or DS app in only a few hours or minutes.
+* Less code is requires to create amaizing web apps.
+* It is compatible with the majority of python librarie (eg. pandas, matplotlib, seaborn, plotly, keras, pytorch)
 
 ## Tools
 
