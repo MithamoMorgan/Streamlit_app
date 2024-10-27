@@ -31,7 +31,7 @@ Streamlit is the easiest way especially for people with no front-end-knowledge t
 
 ## Display Texts with Streamlit
 
-```
+```python
 import streamlit as st
 
 st.title("This is the app title")
