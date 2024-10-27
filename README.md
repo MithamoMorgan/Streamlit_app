@@ -4,7 +4,7 @@
 2. [Why should data scientists use streamlit](#Why-should-data-scientists-use-streamlit)
 3. [Tools](#Tools)
 4. [Display Texts with Streamlit](#Display-Texts-with-Streamlit)
-5. [Display an Image, Video or Audio File](#Display-an-Image,-Video-or-Audio-File)
+5. [Display an Image Video or Audio File](#Display-an-Image-Video-or-Audio-File)
 6. [Example](#Example)
 7. [How to Run the App](#How-to-Run-the-App)
 
@@ -44,7 +44,7 @@ st.code("x = 2021")
 st.latex(r''' a+a r^1+a r^2+a r^3 ''')
 ```
 
-## Display an Image, Video or Audio File
+## Display an Image Video or Audio File
 
 You can't find functions as easy as Streamlit functions to display images, videos, and audio files.
 
