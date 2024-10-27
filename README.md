@@ -4,6 +4,7 @@
 2. [Why should data scientists use streamlit](#Why-should-data-scientists-use-streamlit)
 3. [Tools](#Tools)
 4. [Example](#Example)
+5. [How to Run the App](#How-to-Run-the-App)
 
 ## What is Streamlit
 
