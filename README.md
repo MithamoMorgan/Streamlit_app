@@ -53,6 +53,7 @@ st.image("kid.jpg", caption="A kid playing")
 st.audio("audio.mp3")
 st.video("video.mp4")
 ```
+**Note:** If your media files are in the same directory as your python script, you can just use the file names directly.
 
 ## Example
 
