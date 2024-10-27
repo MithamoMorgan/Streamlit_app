@@ -70,7 +70,17 @@ st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
 st.slider('Pick a number', 0, 50)
 ```
 
-**NOte:** `st.selectbox` allows users to select a single option from a dropdown list while `st.multiselect` allows users to select multiple options from a list.
+**Note:** `st.selectbox` allows users to select a single option from a dropdown list while `st.multiselect` allows users to select multiple options from a list.
+
+```python
+st.number_input('Pick a number', 0, 10)
+st.text_input('Email address')
+st.date_input('Traveling date')
+st.time_input('School time')
+st.text_area('Description')
+st.file_uploader('Upload a photo')
+st.color_picker('Choose your favorite color')
+```
 
 ## Example
 
