@@ -106,7 +106,16 @@ st.exception(RuntimeError("RuntimeError exception"))
 
 ## Sidebar and Container
 
-This help to organize your app. The hierarchy and arrangement of pages on your app can have a large impact on your user experience. By organizing your content you allow visitors to unnderstand and navigate your site, which helps them find what the're looking for and increases the likelihoos that they'll return in the future.
+This help to organize your app. The hierarchy and arrangement of pages on your app can have a large impact on your user experience. By organizing your content you allow visitors to unnderstand and navigate your site, which helps them find what the're looking for and increases the likelihood that they'll return in the future.
+
+### Sidebar
+
+Passing an element to `st.sidebar()` will make this element pinned to the left, allowing users to focus on the content in your app. This will make your app more organized and easier to understand.
+
+```python
+st.sidebar.title("Sidebar Title")
+st.sidebar.markdown("This is the sidebar content")
+```
 
 
 ## Example
