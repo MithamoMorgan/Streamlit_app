@@ -3,8 +3,9 @@
 1. [What is Streamlit](#What-is-Streamlit?)
 2. [Why should data scientists use streamlit](#Why-should-data-scientists-use-streamlit)
 3. [Tools](#Tools)
-4. [Example](#Example)
-5. [How to Run the App](#How-to-Run-the-App)
+4. [Display Texts with Streamlit](Display-Texts-with-Streamlit)
+5. [Example](#Example)
+6. [How to Run the App](#How-to-Run-the-App)
 
 ## What is Streamlit
 
@@ -27,6 +28,21 @@ Streamlit is the easiest way especially for people with no front-end-knowledge t
 
 * **Python:** Programming language
 * **VsCode:** IDE
+
+## Display Texts with Streamlit
+
+```
+import streamlit as st
+
+st.title("This is the app title")
+st.header("This is the header")
+st.markdown("This is the markdown")
+st.subheader("This is the subheader")
+st.caption("This is the caption")
+st.code("x = 2021")
+st.latex(r''' a+a r^1+a r^2+a r^3 ''')
+```
+
 
 ## Example
 
