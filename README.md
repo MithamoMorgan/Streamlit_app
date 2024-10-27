@@ -5,8 +5,9 @@
 3. [Tools](#Tools)
 4. [Display Texts with Streamlit](#Display-Texts-with-Streamlit)
 5. [Display an Image Video or Audio File](#Display-an-Image-Video-or-Audio-File)
-6. [Example](#Example)
-7. [How to Run the App](#How-to-Run-the-App)
+6. [Input Widgets](Input-Widgets)
+7. [Example](#Example)
+8. [How to Run the App](#How-to-Run-the-App)
 
 ## What is Streamlit
 
@@ -54,6 +55,20 @@ st.audio("audio.mp3")
 st.video("video.mp4")
 ```
 **Note:** If your media files are in the same directory as your python script, you can just use the file names directly.
+
+## Input Widgets
+
+Widgets are the most important user interface components.
+
+```python
+st.checkbox('Yes')
+st.button('Click Me')
+st.radio('Pick your gender', ['Male', 'Female'])
+st.selectbox('Pick a fruit', ['Apple', 'Banana', 'Orange'])
+st.multiselect('Choose a planet', ['Jupiter', 'Mars', 'Neptune'])
+st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
+st.slider('Pick a number', 0, 50)
+```
 
 ## Example
 
