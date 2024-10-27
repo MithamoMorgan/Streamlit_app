@@ -131,7 +131,7 @@ with st.container():
 
 In the directory where the python file is situated, create a new folder named **pages**. Users have to name that folder pages as Streamlit will not understand any other directory name.
 
-To add content in both pages we simply write code on those Python files by importing streamlit and using it’s methods.
+To add content in the pages we simply write code on those Python files by importing streamlit and using it’s methods.
 
 Streamlit by default order our pages alphabetically, we can change that by making changes in the file name by adding a specific number infront of their name followed by an underscore like this –
 
